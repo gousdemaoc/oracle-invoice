@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2025-03-06T20:59:08.5245305Z||;True|2025-03-06T11:41:11.1910476-05:00||;True|2025-03-05T12:26:14.7725243-05:00||;True|2025-03-05T12:09:07.0283280-05:00||;True|2025-03-05T11:23:53.1450184-05:00||;True|2025-03-05T11:23:36.8245912-05:00||;True|2025-02-24T14:31:32.1818900-05:00||;True|2025-02-24T14:23:30.7925661-05:00||;True|2025-02-24T13:38:50.5274277-05:00||;True|2025-02-24T13:38:30.4772317-05:00||;True|2025-02-24T13:34:35.5934844-05:00||;True|2025-02-24T13:20:20.4007278-05:00||;True|2025-02-12T14:55:50.7609566-05:00||;True|2025-02-07T15:48:55.5989191-05:00||;True|2025-02-07T15:48:39.3256568-05:00||;True|2025-02-06T15:58:29.0406804-05:00||;True|2025-02-04T13:17:25.1192298-05:00||;True|2025-01-17T16:04:49.9934292-05:00||;True|2025-01-17T15:42:57.2778944-05:00||;True|2025-01-17T15:41:41.4036132-05:00||;True|2025-01-17T15:34:33.2553704-05:00||;True|2025-01-17T15:13:17.1802900-05:00||;True|2025-01-17T14:49:43.4808794-05:00||;True|2025-01-17T12:56:04.9657821-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
