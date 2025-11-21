@@ -38,20 +38,29 @@ namespace OracleAPInvoiceAttachmentExtract.Service
                 switch (name)
                 {
                     case "sds":
+                    case "aocp":
+                        return "User Id=xxsds; Password=lmSehTGz7601; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aoccol-72.aoc-resins.com)(PORT=1531)))(CONNECT_DATA=(SERVICE_NAME=ebs_TACPR12)(INSTANCE_NAME=CTACPR12)));Persist Security Info=false;Connection Timeout=300;";
+
+
+                    case "sdsOld":
                         return "User Id=msds_om; Password=msds_om; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aoccol-72.aoc-resins.com)(PORT=1531)))(CONNECT_DATA=(SERVICE_NAME=ebs_TACPR12)(INSTANCE_NAME=CTACPR12)));Persist Security Info=false;Connection Timeout=300;";
 
-                    case "aocp":
+                    case "aocpOld":
                         return "User Id=AOCPORT; Password=AOCPORT; Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=aoccol-72.aoc-resins.com)(PORT=1531))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ebs_TACPR12)(INSTANCE_NAME=CTACPR12)));Persist Security Info=false;Connection Timeout=300;";
                     default:
                         return null;
 
                 }
             }
-            else if (isUAT())
+            else if (isTest())
             {
                 switch (name)
                 {
                     case "sds":
+                    case "aocp":
+                        return "User Id=xxsds; Password=lmSehTGz7601; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aocora-dbtmp.aoc-resins.com)(PORT=1533)))(CONNECT_DATA=(SERVICE_NAME=ebs_TACTR12)(INSTANCE_NAME=CTACTR12)));Persist Security Info=false;Connection Timeout=300;";
+
+                    case "sdsOld":
                         return "User Id=msds_om; Password=uat2023msds; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aocuat-72.aoc-resins.com)(PORT=1536)))(CONNECT_DATA=(SERVICE_NAME=ebs_TACSR12)(INSTANCE_NAME=CTACSR12)));Persist Security Info=false;Connection Timeout=300;";
 
                     default:
@@ -63,9 +72,13 @@ namespace OracleAPInvoiceAttachmentExtract.Service
                 switch (name)
                 {
                     case "sds":
+                    case "aocp":
+                        return "User Id=xxsds; Password=lms!hTGz7601; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aocdev-72.aoc-resins.com)(PORT=1533)))(CONNECT_DATA=(SERVICE_NAME=ebs_TACDR12)(INSTANCE_NAME=CTACDR12)));Persist Security Info=false;Connection Timeout=300;";
+
+                    case "sdsold":
                         return "User Id=msds_om; Password=dev2023msds; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aocdev-72.aoc-resins.com)(PORT=1533)))(CONNECT_DATA=(SERVICE_NAME=ebs_TACDR12)(INSTANCE_NAME=CTACDR12)));Persist Security Info=false;Connection Timeout=300;";
 
-                    case "aocp":
+                    case "aocpold":
                         return "User Id=AOCPORT; Password=AOCPORT; Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=tcp)(HOST=aocdev-72.aoc-resins.com)(PORT=1533)))(CONNECT_DATA=(SID=TACDR12)));Persist Security Info=false;Connection Timeout=300;";
                     default:
                         return null;
@@ -133,8 +146,12 @@ namespace OracleAPInvoiceAttachmentExtract.Service
             return Environment.MachineName.ToUpper() == "COL-GDEME-SUR";
 
         }
-        
 
+        public static bool isTest()
+        {
+            return  Environment.MachineName.ToUpper() == "AOCCOL-181SC";
+
+        }
 
 
 

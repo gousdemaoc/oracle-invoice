@@ -22,10 +22,10 @@ using OracleAPInvoiceAttachmentExtract
 #line 2 "C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\Views\_ViewImports.cshtml"
 using OracleAPInvoiceAttachmentExtract.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ff9964c152e510da7fffb399f5aa96824c01ca73ec63a3608625e14335200a83", @"/Views/Invoice/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"700be9a27e5fcbaf77497e4d085f808f4d29a4bfc417f18b4afa91cfcd114ffd", @"/Views/_ViewImports.cshtml")]
     #nullable restore
@@ -348,7 +348,7 @@ using OracleAPInvoiceAttachmentExtract.Models
 
 <div class=""container my-4"" style=""background-color: #f4f4f4; padding: 5px; border-radius: 8px;"">
     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff9964c152e510da7fffb399f5aa96824c01ca73ec63a3608625e14335200a8314624", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff9964c152e510da7fffb399f5aa96824c01ca73ec63a3608625e14335200a8314632", async() => {
                 WriteLiteral("\r\n        <div class=\"row g-2 mb-3\">\r\n            <div class=\"col-md-4\">\r\n                <label for=\"InvoiceId\" class=\"form-label\">VENDOR NAME</label>\r\n                <input type=\"text\" id=\"VendorName\" name=\"VendorName\" class=\"form-control\"");
                 BeginWriteAttribute("value", " value=\"", 4934, "\"", 4967, 1);
                 WriteAttributeValue("", 4942, 
@@ -458,7 +458,7 @@ using OracleAPInvoiceAttachmentExtract.Models
 #nullable disable
 
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff9964c152e510da7fffb399f5aa96824c01ca73ec63a3608625e14335200a8321755", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff9964c152e510da7fffb399f5aa96824c01ca73ec63a3608625e14335200a8321763", async() => {
                 WriteLiteral("\r\n\r\n                <div class=\"d-flex justify-content-between align-items-center mb-2 search-results-header\">\r\n                    <div>\r\n                        <span>Total Count: <strong id=\"total-items\">");
                 Write(
 #nullable restore

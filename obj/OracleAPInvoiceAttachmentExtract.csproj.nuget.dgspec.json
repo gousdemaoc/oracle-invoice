@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\georges.deme\\source\\Family\\OracleInvoice\\OracleInvoice\\OracleInvoice\\OracleAPInvoiceAttachmentExtract.csproj": {
-      "version": "1.0.0.1",
+      "version": "1.0.0.2",
       "restore": {
         "projectUniqueName": "C:\\Users\\georges.deme\\source\\Family\\OracleInvoice\\OracleInvoice\\OracleInvoice\\OracleAPInvoiceAttachmentExtract.csproj",
         "projectName": "OracleAPInvoiceAttachmentExtract",
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

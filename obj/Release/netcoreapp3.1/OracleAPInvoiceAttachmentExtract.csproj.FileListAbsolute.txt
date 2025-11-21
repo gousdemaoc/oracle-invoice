@@ -73,3 +73,4 @@ C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\ob
 C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\obj\Release\netcoreapp3.1\OracleAPInvoiceAttachmentExtract.dll
 C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\obj\Release\netcoreapp3.1\OracleAPInvoiceAttachmentExtract.pdb
 C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\obj\Release\netcoreapp3.1\OracleAPInvoiceAttachmentExtract.genruntimeconfig.cache
+C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\obj\Release\netcoreapp3.1\OracleAPInvoiceAttachmentExtract.sourcelink.json

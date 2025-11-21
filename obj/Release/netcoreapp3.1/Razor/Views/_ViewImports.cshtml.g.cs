@@ -22,10 +22,10 @@ namespace AspNetCoreGeneratedDocument
 #line 2 "C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\Views\_ViewImports.cshtml"
  using OracleAPInvoiceAttachmentExtract.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"700be9a27e5fcbaf77497e4d085f808f4d29a4bfc417f18b4afa91cfcd114ffd", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views__ViewImports : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>

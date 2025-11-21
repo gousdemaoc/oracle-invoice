@@ -22,10 +22,10 @@ using OracleAPInvoiceAttachmentExtract
 #line 2 "C:\Users\georges.deme\source\Family\OracleInvoice\OracleInvoice\OracleInvoice\Views\_ViewImports.cshtml"
 using OracleAPInvoiceAttachmentExtract.Models
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"0e00a4445b214863ea51c8985fae1970b43e932712216fa047faf3062bb23445", @"/Views/Home/Privacy.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"700be9a27e5fcbaf77497e4d085f808f4d29a4bfc417f18b4afa91cfcd114ffd", @"/Views/_ViewImports.cshtml")]
     #nullable restore

@@ -225,6 +225,10 @@ namespace OracleAPInvoiceAttachmentExtract.Service
             {
                 dbVersion = "UAT-TACSR12";
             }
+            else if (Connections.isTest())
+            {
+                dbVersion = "TEST-TACTR12";
+            }
 
             using (OracleConnection con = new OracleConnection(Connections.get("sds")))
             using (OracleCommand cmd = new OracleCommand(sql, con))
